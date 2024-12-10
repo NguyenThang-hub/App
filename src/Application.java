@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class Application {
     private static  JFrame frame = new JFrame("Login");
-    public static void main(String args[]) {
+    public static void run() {
         frame.setLayout(new BorderLayout());
         frame.setSize(new Dimension( 1000,600));
         frame.setLocation(300,200);
